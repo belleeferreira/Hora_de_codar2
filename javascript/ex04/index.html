@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var x= parseInt(prompt("Digite um número:"));
+        var y= parseInt(prompt("Digite outro número:"));
+        var z= parseInt(prompt("Digite outro número:"));
+        
+        if(x> y && x> z){
+            if(y>z){
+                alert("A soma dos dois maiores números é:" +(x+y));
+            }
+            else{
+                alert("A soma dos dois maiores números é:" + (x+z));
+            }
+        }
+        if(y> x && y> z){
+            if(x>z){
+                alert("A soma dos dois maiores números é:" +(y+x));
+            }
+            else{
+                alert("A soma dos dois maiores números é" + (y+ z));
+            }
+        }
+        if(z> y && z> x){
+            if(y>x){
+                alert("A soma dos dois maiores números é:" +(z+y))
+            }
+            else{
+                alert("A soma dos dois maiores números é:" +(z+x))
+            }
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var javali1= parseInt(prompt('Qual a sua idade Javali 1?'));
+        var javali2= parseInt(prompt('Qual a sua idade Javali 2?'));
+        var girafa1= parseInt(prompt('Qual a sua idade Girafa 1?'));
+        var girafa2= parseInt(prompt('Qual a sua idade Girafa 2?'));
+        var idade1= javali1+girafa2; // if 1
+        var idade2= javali1+girafa1; // if 2
+        var idade3= javali2+girafa1; // if 3
+        var idade4= javali2+girafa2; // if 4
+        var idade5= javali2+girafa1; // if 5 
+        var idade6= javali1+girafa2; // if 6
+        var idade7= javali1+girafa1; // if 7  `
+        var idade8= javali2+girafa2; 
+       
+        if(javali1>javali2 && girafa1>girafa2){
+            alert(`A soma das idades do Javali mais velho e Girafa mais nova é: ${idade1}`)
+        }
+       
+        if(javali1>javali2 && girafa1<girafa2){ 
+            alert(`A soma das idades do Javali mais velho e Girafa mais nova é: ${idade2}`)
+        }
+
+        if(javali2>javali1 && girafa1<girafa2){
+            alert(`A soma das idades do Javali mais velho e Girafa mais nova é: ${idade3}`)
+        }
+
+        if(javali2>javali1 && girafa1>girafa2){
+            alert(`A soma das idades do Javali mais velho e Girafa mais nova é: ${idade4}`)
+        }
+
+        if(javali2<javali1 && girafa1>girafa2){
+            alert(`A soma das idades do Javali mais novo e Girafa mais velha é: ${idade5}`)
+        }
+
+        if(javali1<javali2 && girafa2>girafa1){
+            alert(`A soma das idades do Javali mais novo e Girafa mais velha é: ${idade6}`)
+        }
+
+        if(javali1<javali2 && girafa1>girafa2){
+            alert(`A soma das idades do Javali mais novo e Girafa mais velha é: ${idade7}`)
+
+        }
+        if(javali2<javali1 && girafa2>girafa1){
+            alert(`A soma das idades do Javali mais novo e Girafa mais velha é: ${idade8}`)
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var n1= parseFloat(prompt('Informe sua nota da prova 1'));
+        var n2= parseFloat(prompt('Informe sua nota da prova 2'));
+        var o=  parseFloat(prompt('Informe sua nota da prova optativa'));
+        if(n1>n2 && n2<o){
+            n2=o
+           alert("Sua nota substituta da prova 2 é: " + (n2))
+        } 
+        if(n2>n1 && n1<o){ 
+            n1=o 
+           alert("Sua nota substituta da prova 1 é: " + (n1))
+        }
+        var media= (n1+n2) /2
+        if(media>=6.0){
+            alert('Você está aprovado!')
+        }
+        if(media<3.0){
+            alert('Você está reprovado!')
+        } 
+        if(media>=3.0 && media<6.0){
+            alert('Você está de recuperação!')
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

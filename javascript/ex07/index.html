@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)
+        var v1 = parseInt(prompt("Informe um valor:"));
+        var v2 = parseInt(prompt("Informe um valor:"));
+        var v3 = parseInt(prompt("Informe um valor:"));
+        var v4 = parseInt(prompt("Informe um valor:"));
+        alert("O primeiro valor é: " + v1)
+        alert("O último valor é: " + v4)
+
+        if (v1 > v2 && v1 > v3 && v1 > v4) {
+            alert("O maior número é:" + v1)
+        }
+        else {
+            if (v2 > v1 && v2 > v3 && v2 > v4) {
+                alert("O maior número é: " + v2)
+            }
+            else {
+                if (v3 > v1 && v3 > v2 && v3 > v4) {
+                    alert("O maior número é: " + v3)
+                }
+                else {
+                    alert("O maior número é: " + v4)
+                }
+            }
+
+        }
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

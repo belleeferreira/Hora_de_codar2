@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var contador = 1;
+        var valores = []
+        var minimo= 99;
+        var maximo= 0;
+        while(contador <= 20)
+        {
+            var valor = parseInt(prompt("Digite um valor:"))
+            valores.push(valor)
+            alert(`Esses são os valores ${valores}`)
+            if(valor<minimo){
+               minimo=valor
+               
+            }
+            if(valor>maximo){
+                maximo=valor
+                
+            }
+            contador++
+        }
+        alert(`O valor minimo é: ${minimo}`)
+        alert(`O valor maximo é: ${maximo}`)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
